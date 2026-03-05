@@ -17,4 +17,4 @@ jobs:
     needs: job1
     steps:
       - name: Run after job1
-        run: echo "Job2 is running because Job1 finished successfully""
+        run: echo "Job2 is running because Job1 finished successfully"
